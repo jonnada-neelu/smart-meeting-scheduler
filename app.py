@@ -72,6 +72,6 @@ class SmartMeetingScheduler:
         return formatted_meetings
 
 scheduler = SmartMeetingScheduler()
-print(scheduler.schedule_meeting("Alice", "2025-03-18", "9 AM", "11 AM"))
-print(scheduler.get_available_slots("Alice", "2025-03-18"))
-print(scheduler.view_scheduled_meetings("Alice"))
+print(scheduler.schedule_meeting("Neelu", "2025-03-20", "9 AM", "11 AM"))
+print(scheduler.get_available_slots("Neelu", "2025-03-20"))
+print(scheduler.view_scheduled_meetings("Neelu"))
